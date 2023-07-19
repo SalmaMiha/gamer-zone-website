@@ -201,9 +201,17 @@ nav li {
 }
 
 .games-card-container {
-    width: 80%;
     display: flex;
     gap: 1rem;
+    justify-content: center;
+}
+
+.games-card {
+    width: 15%;
+}
+
+.games-card>img {
+    width: 100%;
 }
 
 .games-card>p {
@@ -215,16 +223,142 @@ nav li {
 /* play instantly section styles  */
 .play-instantly-container {
     display: flex;
+    margin-top: 7rem;
+}
+
+.instantly-text-content {
+
+    text-align: right;
+    padding-top: 7rem;
+    padding-right: 7rem;
+    padding-left: 15rem;
+    width: 20%;
+}
+
+.instantly-text-content h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+}
+
+.gradient-color {
+    background: linear-gradient(180deg, #F948B2 0%, #F948B2 35%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-instantly-description {
+    color: #534C64;
+    font-size: 0.8rem;
+}
+
+#main-img {
+    width: 60%;
+    display: block;
+    padding-left: 5rem;
+}
+
+#sec-img {
+    position: relative;
+    height: 15rem;
+    bottom: 10rem;
+
+}
+
+/* play games section styles */
+
+.play-games-container {
+    display: flex;
+}
+
+.play-games-text-content {
+    padding-top: 5rem;
+    padding-right: 15rem;
+    padding-left: 7rem;
+    width: 30%;
+}
+
+.play-games-text-content h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+}
+
+.play-games-description {
+    color: #534C64;
+    font-size: 0.8rem;
+}
+
+#pg-img-main {
+    width: 60%;
+    display: block;
+    padding-left: 13rem;
+}
+
+#pg-img-sec {
+    position: relative;
+    height: 15rem;
+    bottom: 10rem;
+    left: 30rem;
 }
 
 
 /* career section styles */
 .career-container {
     display: flex;
+    background-color: #F948B2;
+    justify-content: space-between;
+}
+
+.career-text-content {
+    width: 40%;
+    padding-left: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.career-text-content h2 {
+    color: #FFF;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.career-description {
+    color: #FFF;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    padding-bottom: 3rem;
 }
 
 .careers-and-locations {
     display: flex;
+}
+
+.careers {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 2rem;
+    /* 200% */
+}
+
+.locations {
+    color: #FFF;
+    text-align: right;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.career-button {
+    background: #FFF;
+    color: #FF42A5;
+
+}
+
+.career-image {
+    width: 50%;
 }
 
 /* footer styles */
