@@ -418,7 +418,9 @@ footer {
 }
 
 footer h2 {
-    color: #FFF
+    padding-left: 1rem;
+    color: #FFF;
+    font-size: 2.1rem;
 }
 
 footer a {
@@ -431,11 +433,29 @@ footer a {
 
 .page-links a {
     color: #FFF;
+    padding-left: 2rem;
+    font-size: 1.1rem;
+}
+
+
+
+.icon-links i {
+    color: #FFF;
+    padding-right: 1.5rem;
 }
 
 .extra-links {
     padding-top: 3rem;
     padding-bottom: 0.8rem;
+}
+
+.extra-links a {
+    padding-left: 2rem;
+    font-size: 0.9rem;
+}
+
+footer p {
+    font-size: 0.8rem;
 }
 
 .extra-links a,
