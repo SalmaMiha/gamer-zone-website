@@ -540,6 +540,10 @@ footer p {
         margin-top: 2rem;
     }
 
+    .play-instantly-description {
+        margin-bottom: 3rem;
+    }
+
     .games-card {
         width: 80%;
         margin: 0 auto;
@@ -547,16 +551,41 @@ footer p {
 
     .instantly-text-content {
         text-align: center;
-        margin-bottom: 3rem;
-        margin-top: 2rem;
+        padding-top: 1rem;
+        padding-left: 8rem;
+        padding-right: 0;
+
+    }
+
+    .instantly-text-content h2 {
+        font-size: 1.5rem;
     }
 
     #main-img {
-        width: 90%;
+        width: 80%;
+    }
+
+    #sec-img {
+        height: 12rem;
+        bottom: 8rem;
+    }
+
+    .play-games-description {
+        padding-bottom: 2rem;
+    }
+
+
+    .play-games-text-content {
+        text-align: center;
+        margin-left: 10rem;
+    }
+
+    .play-games-text-content h2 {
+        font-size: 1.5rem;
     }
 
     #pg-img-main {
-        width: 90%;
+        width: 70%;
         padding-bottom: 0;
         padding-left: 0;
     }
@@ -565,11 +594,28 @@ footer p {
 
     #pg-img-sec {
         left: 15rem;
+        height: 10rem;
+        bottom: 7rem;
     }
 
     .play-games-text-content {
         padding-top: 0;
         padding-left: 1rem;
+    }
+
+    .career-text-content {
+        width: 80%;
+        padding-left: 3rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .careers {
+        font-size: 0.7rem;
+    }
+
+    .locations {
+        font-size: 0.7rem;
     }
 
     .career-image {
@@ -580,7 +626,7 @@ footer p {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         padding: 0;
-        margin: 1rem;
+        margin: 3rem 1rem;
 
     }
 
