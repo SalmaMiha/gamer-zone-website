@@ -9,6 +9,21 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+.btn-primary {
+    background-color: #FF42A5;
+}
+
+.button-style {
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: 2rem;
+    padding: 0.6rem 1rem;
+    border: 0;
+    color: #FFF;
+    margin-top: 1.7rem;
+
+}
+
 /* header styles */
 
 /* navbar styles */
@@ -96,23 +111,9 @@ nav li {
     padding-top: .5rem;
 }
 
-.banner-text-content button {
-    font-size: 0.8rem;
-    font-weight: 600;
-    border-radius: 2rem;
-    padding: 0.5rem 1rem;
-    border: 0;
-    color: #FFF;
-    margin-top: 1.7rem;
-
-}
-
-.btn-primary {
-    background-color: #FF42A5;
-}
-
 .btn-secondary {
     background-color: #4EC5F7;
+    margin-left: 1rem;
 }
 
 .banner-container img {
@@ -120,6 +121,155 @@ nav li {
     margin-right: 5rem;
     height: 30%;
 }
+
+
+/* gamer section styles */
+.gamer-container {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 66, 165, 0.03);
+    padding: 0 9rem;
+}
+
+.gamer-container img {
+    width: 55%;
+}
+
+.gamer-text-content {
+    padding-top: 5rem;
+    text-align: right;
+    width: 40%;
+}
+
+.gamer-text-content h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gamer-description {
+    color: #534C64;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
+    line-height: 1.3rem;
+}
+
+.purpose {
+    margin-top: 1rem;
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.gamer-container h3 {
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* online games section */
+
+.online-games-container {
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.online-games-container h2 {
+    color: #0B0223;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.funny {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-games-container>p {
+    color: #534C64;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.8rem;
+    line-height: 1.5rem;
+}
+
+.games-card-container {
+    width: 80%;
+    display: flex;
+    gap: 1rem;
+}
+
+.games-card>p {
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* play instantly section styles  */
+.play-instantly-container {
+    display: flex;
+}
+
+
+/* career section styles */
+.career-container {
+    display: flex;
+}
+
+.careers-and-locations {
+    display: flex;
+}
+
+/* footer styles */
+footer {
+    background: #0B0223;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.footer-heading {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2.5rem;
+}
+
+footer h2 {
+    color: #FFF
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.page-links {
+    padding-bottom: 2.5rem;
+}
+
+.page-links a {
+    color: #FFF;
+}
+
+.extra-links {
+    padding-top: 3rem;
+    padding-bottom: 0.8rem;
+}
+
+.extra-links a,
+footer p {
+    color: rgba(255, 255, 255, 0.60);
+}
+
+
+
+
 
 
 
@@ -132,7 +282,8 @@ nav li {
 @media screen and (max-width: 576px) {
 
     nav,
-    nav ul {
+    nav ul,
+    .gamer-container {
         flex-direction: column;
     }
 
@@ -154,9 +305,34 @@ nav li {
     .banner-text-content {
         width: 90%;
         padding-left: 9rem;
+        padding-bottom: 5rem;
     }
-}
 
+    .gamer-container {
+        background-color: #FFF;
+        padding: 3rem 3rem;
+        align-items: center;
+    }
+
+    .gamer-container img {
+        width: 95%;
+    }
+
+    .gamer-text-content {
+        padding-top: 3rem;
+        text-align: center;
+        width: 80%;
+    }
+
+    .purpose {
+        font-size: 0.8rem;
+    }
+
+    .gamer-container h3 {
+        font-size: 1rem;
+    }
+
+}
 
 /* tablet screen */
 @media screen and (min-width:576px) and (max-width: 768px) {
