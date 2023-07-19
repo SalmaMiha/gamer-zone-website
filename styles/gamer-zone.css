@@ -479,7 +479,10 @@ footer p {
 
     nav,
     nav ul,
-    .gamer-container {
+    .gamer-container,
+    .games-card-container,
+    .play-instantly-container,
+    .career-container {
         flex-direction: column;
     }
 
@@ -488,7 +491,8 @@ footer p {
         gap: 0.5rem;
     }
 
-    .banner-container {
+    .banner-container,
+    .play-games-container {
         flex-direction: column-reverse;
         align-items: center;
     }
@@ -526,6 +530,112 @@ footer p {
 
     .gamer-container h3 {
         font-size: 1rem;
+    }
+
+    .online-games-container {
+        margin-top: 2rem;
+    }
+
+    .play-instantly-container {
+        margin-top: 2rem;
+    }
+
+    .games-card {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .instantly-text-content {
+        text-align: center;
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+    }
+
+    #main-img {
+        width: 90%;
+    }
+
+    #pg-img-main {
+        width: 90%;
+        padding-bottom: 0;
+        padding-left: 0;
+    }
+
+
+
+    #pg-img-sec {
+        left: 15rem;
+    }
+
+    .play-games-text-content {
+        padding-top: 0;
+        padding-left: 1rem;
+    }
+
+    .career-image {
+        width: 100%;
+    }
+
+    .games-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0;
+        margin: 1rem;
+
+    }
+
+    .games-button:nth-child(n+6) {
+        position: relative;
+        left: 0;
+    }
+
+    .games-button {
+        padding: 0;
+        margin: 0;
+    }
+
+    .games-button div {
+        font-size: 0.6rem;
+    }
+
+    footer {
+        margin-right: 0;
+    }
+
+    .page-links {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.5rem;
+    }
+
+    .page-links a {
+        font-size: 0.9rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .icon-links {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 1rem;
+    }
+
+    .icon-links a {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .extra-links {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .extra-links a {
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
 }
